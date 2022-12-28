@@ -835,9 +835,9 @@ position: relative;
 }
 
 .hero__next:focus::before {
-  -webkit-transform: scale(1.2) rotate(90deg);
-      -ms-transform: scale(1.2) rotate(90deg);
-          transform: scale(1.2) rotate(90deg);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .superior {
@@ -1526,9 +1526,9 @@ position: relative;
 
 .swiper-button-prev:focus::before,
 .swiper-button-next:focus::before {
-  -webkit-transform: scale(1.2) rotate(90deg);
-      -ms-transform: scale(1.2) rotate(90deg);
-          transform: scale(1.2) rotate(90deg);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .swiper-button-prev::before {
