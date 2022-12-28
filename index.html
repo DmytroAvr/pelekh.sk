@@ -10,7 +10,7 @@
 			opacity: 0;
 		}
 	</style>
-	<link rel="stylesheet" href="css/style.min.css?_v=20221227234527">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221228122447">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,7 +45,7 @@
 						</div>
 						<h1 class="hero__title">Investičné apartmány v Ukrajine</h1>
 					</div>
-					<a data-goto=".our-requirements" class="hero__next _icon-arrow go-to" href="#" data-watch data-watch-threshold="0.7" data-watch-once></a>
+					<a data-goto=".superior__container" class="hero__next _icon-arrow go-to" href="#" data-watch data-watch-threshold="0.7" data-watch-once></a>
 				</div>
 			</section>
 			<section class="superior" id="about-us" data-watch data-watch-threshold="0.3" data-watch-once>
@@ -549,12 +549,14 @@
 						<!--inpur tel-->
 						<div class="contact-form__input-row contact-form__input-row--tel">
 							<label for="contactsTel" hidden>Telefon:</label>
-							<input autocomplete="off" type="tel" name="form[tel]" data-error="Omyl. Zadajte telefónne číslo alebo e-mail" data-required="telephone" placeholder="Telefon: +421 " class="input" id="contactsTel">
+							<input autocomplete="off" type="tel" data-required="telephone" name="form[tel]" data-error="Omyl. Zadajte telefónne číslo alebo e-mail" placeholder="Telefon: +421 " class="input required required--tel" id="contactsTel">
+
 						</div>
 						<!--inpur mail-->
 						<div class="contact-form__input-row contact-form__input-row--email">
 							<label for="contactsEmail" hidden>email:</label>
-							<input type="text" name="form[email]" data-error="Omyl. Zadajte telefónne e-mail alebo číslo" data-required="email" placeholder="email:" class="input" id="contactsEmail">
+							<input type="text" name="form[email]" data-required="email" data-error="Omyl. Zadajte telefónne e-mail alebo číslo" placeholder="email:" class="input required required--email" id="contactsEmail">
+
 						</div>
 						<!-- send -->
 						<div class="contact-form__input-row contact-form__input-row--send">
@@ -619,7 +621,7 @@
 
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20221227234527"></script>
+	<script src="js/app.min.js?_v=20221228122447"></script>
 </body>
 
 </html>

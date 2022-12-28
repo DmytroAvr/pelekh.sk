@@ -1524,16 +1524,35 @@ position: relative;
   border: 1px solid #ff8a63;
 }
 
+.swiper-button-prev:focus::before,
+.swiper-button-next:focus::before {
+  -webkit-transform: scale(1.2) rotate(90deg);
+      -ms-transform: scale(1.2) rotate(90deg);
+          transform: scale(1.2) rotate(90deg);
+}
+
 .swiper-button-prev::before {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
 
+.swiper-button-prev:focus::before {
+  -webkit-transform: scale(1.2) rotate(90deg);
+      -ms-transform: scale(1.2) rotate(90deg);
+          transform: scale(1.2) rotate(90deg);
+}
+
 .swiper-button-next::before {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
+}
+
+.swiper-button-next:focus::before {
+  -webkit-transform: scale(1.2) rotate(-90deg);
+      -ms-transform: scale(1.2) rotate(-90deg);
+          transform: scale(1.2) rotate(-90deg);
 }
 
 .swiper-button-disabled {
