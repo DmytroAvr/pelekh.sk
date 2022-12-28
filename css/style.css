@@ -1524,13 +1524,6 @@ position: relative;
   border: 1px solid #ff8a63;
 }
 
-.swiper-button-prev:focus::before,
-.swiper-button-next:focus::before {
-  -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
 .swiper-button-prev::before {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
